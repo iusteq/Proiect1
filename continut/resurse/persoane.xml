@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persoane>
+    <persoana id="1">
+        <nume>Popescu</nume>
+        <prenume>Ion</prenume>
+        <varsta>23</varsta>
+        <job>student</job>
+        <adresa>
+            <strada>Arcu</strada>
+            <numar>13</numar>
+            <localitate>Iasi</localitate>
+            <judet>Iasi</judet>
+            <tara>Romania</tara>
+        </adresa>
+    </persoana>
+    <persoana id="2">
+        <nume>Ionesi</nume>
+        <prenume>Vasile</prenume>
+        <varsta>40</varsta>
+        <job>mester</job>
+        <adresa>
+            <strada>Cuza Voda</strada>
+            <numar>13</numar>
+            <localitate>Radauti</localitate>
+            <judet>Suceava</judet>
+            <tara>Romania</tara>
+        </adresa>
+    </persoana>
+</persoane>

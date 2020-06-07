@@ -1,0 +1,120 @@
+
+
+
+    <h2 id="jspag">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Învăț 💻 JavaScript</h2>
+
+    <div class ="aside">
+        <a href="#sect1">Secțiunea 1</a> <br />
+        <a href="#sect2">Secțiunea 2</a> <br />
+        <a href="#sect3">Secțiunea 3</a> <br />
+        <a href="#sect4">Secțiunea 4</a> <br />
+
+    </div>
+
+    <div style="display: table; width: 100%;width: 90%; margin-left: 20%;">	
+        <aside id="lateral">
+            <a href="#" class="aspect" onclick="schimbaAspect('aspect4x1');">4 x 1</a>
+            <a href="#" class="aspect" onclick="schimbaAspect('aspect1x4');">1 x 4</a>
+            <a href="#" class="aspect" onclick="schimbaAspect('aspect2x2');">2 x 2</a>
+        </aside>
+        
+
+    <main id="normal">
+        <section id="sect1" name="sect1" class="section">
+            <div class="punct">Secțiunea 1: Informații</div>
+            <p id="url">URL: </p>
+            <p id="loc">Locatia: </p>
+            <p id="browser">Numele browserului: </p>
+            <p id="date">Data: </p>
+            <p id="time">Ora: </p>
+        </section>
+
+
+        <section id="sect2" class="section">
+            <div class="punct">Secțiunea 2: Internet Loto</div>
+            <form>
+                <fieldset class="field" id="Loto">
+                    <legend>Numere jucate</legend>
+                    <label for="number1">Numar 1</label>
+                    <input type="text" name="number1" id="number1" pattern="[A-Z0-9]" value ="01" size = 2 maxlength= "2"/> <br />
+                    <label for="number2">Numar 2</label>
+                    <input type="text" name="number2" id="number2" pattern="[A-Z0-9]" value ="AA" size = 2 maxlength= "2"/> <br />
+                    <label for="number3">Numar 3</label>
+                    <input type="text" name="number3" id="number3" pattern="[A-Z0-9]" value ="BB" size = 2 maxlength= "2"/> <br />
+                    <label for="number4">Numar 4</label>
+                    <input type="text" name="number4" id="number4" pattern="[A-Z0-9]" value ="3f" size = 2 maxlength= "2"/> <br />
+                    <label for="number5">Numar 5</label>
+                    <input type="text" name="number5" id="number5" pattern="[A-Z0-9]" value ="5c" size = 2 maxlength= "2"/> <br />
+                    <label for="number6">Numar 6</label>
+                    <input type="text" name="number6" id="number6" pattern="[A-Z0-9]" value ="23" size = 2 maxlength= "2"/> <br />
+                    <label for="number7">Numar 7</label>
+                    <input type="text" name="number7" id="number7" pattern="[A-Z0-9]" value ="19" size = 2 maxlength= "2"/> <br />
+                    <label for="number8">Numar 8</label>
+                    <input type="text" name="number8" id="number8" pattern="[A-Z0-9]" value ="6b" size = 2 maxlength= "2"/> <br />
+                </fieldset>
+                <button type="button" class="buton" onclick="lotoFunction()" > Joacă!</button>
+            </form>
+            <div id="intrari">Numerele jucate  </div>
+            <div id="extrase">Numerele extrase  </div>
+            <div id="nimerite">Apasa butonul "Joaca!" </div>
+        </section>
+
+
+        <section id="sect3" class="section">
+            <div class="punct">Secțiunea 3. Canvas</div>
+
+            <label>Culoarea: </label>
+            <input type="color" id="cul" onchange="seteazaCuloareCelula(this.value);" />
+
+            <canvas id="canvas" width="800" height="500"></canvas>
+            <!--<script src='js/script.js'>init();</script>-->
+            
+                    
+
+        </section>
+
+
+        <section id="sect4" class="section">
+            <div class="punct">Secțiunea 4. Tabel</div>
+
+                <label>Culoarea unei celule: </label>
+                <input type="color" id="cul" onchange="seteazaCuloareCelula(this.value);" />
+				<br />
+				<!--<input id="pozitieRand" type="number" maxlength="2" placeholder="Pozitie rând" />-->
+				<!--<button onclick="randNou();">INSERARE RÂND NOU</button>
+				<br />-->
+				<!--<input id="pozitieColoana" type="number" maxlength="2" placeholder="Pozitie coloana" />-->
+				<!--<button onclick="insertColumn()">INSERARE COLOANA NOUA</button>
+				<br />
+                <br />-->
+                <!--<label>Selectati culoare de umplere: </label>
+                <input type="color" id="culoareTabel" value="white"> <br>-->
+                <label>Celula:</label>
+                <input type = "text" id = "numar" size="2" maxlength="2"><br>
+                <input type="button" value="INSERARE RÂND NOU" onclick="insertRow()">
+                <input type="button" value="INSERARE COLOANA NOUA" onclick="insertColumn()">
+                <!--<br/>-->
+
+				<table id="tabel">
+					<tr>
+						<td>1</td>
+						<td>2</td>
+						<td>3</td>
+					</tr>
+					<tr>
+						<td>4</td>
+						<td>5</td>
+						<td>6</td>
+					</tr>
+					<tr>
+						<td>7</td>
+						<td>8</td>
+						<td>9</td>
+					</tr>
+				</table>
+        </section>
+
+
+    </main>
+    </div>
+s
